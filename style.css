@@ -336,3 +336,24 @@ article p {
   font-size: 25px;
   margin-top: 25px;
 }
+.on-demand-div {
+  margin-top: 20px;
+  display: flex;
+  background-color: #f44336;
+  padding: 60px 20px;
+  border-left: 8px solid rgb(188, 185, 185);
+  gap: 30px;
+}
+.char-i {
+  font-size: 25px;
+  font-family: Verdana;
+  font-weight: bolder;
+  padding: 8px 22px;
+  color: white;
+  background-color: rgb(233, 86, 13);
+}
+.on-demand-para {
+  align-self: center;
+  font-size: 22px;
+  color: white;
+}
