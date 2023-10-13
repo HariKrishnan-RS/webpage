@@ -322,3 +322,17 @@ article p {
 .contact-div div {
   width: 100%;
 }
+
+.article-nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-nav-div i {
+  color: #f44336;
+}
+.article-nav-div p {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 25px;
+}
