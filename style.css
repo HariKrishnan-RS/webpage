@@ -72,7 +72,7 @@ h2 i {
   align-self: center;
   width: 61vw;
   height: 406px;
-  background-color: #f44336;
+  background-color: #ffffff;
   left: 22px;
 }
 
@@ -86,6 +86,7 @@ h2 i {
   display: flex;
   padding: 10px 10px;
   font-family: "Raleway", sans-serif;
+  background-color: #f44336;
 }
 .input-heading-div h2 {
   margin: 10px;
@@ -102,6 +103,23 @@ h2 i {
   background-color: white;
 }
 
+.search-availability-button {
+  font-size: 21px;
+  padding: 15px 20px;
+  border: 0;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: 100;
+}
+.search-availability-button:hover {
+  background-color: rgb(192, 190, 190);
+  color: black;
+}
+.search-availability-div {
+  background-color: white;
+}
 /* Default style for the image */
 
 /* Media query for smaller screens (up to 600px) */
@@ -138,21 +156,6 @@ Media query for larger screens (greater than 1024px)
   border: 1px solid black;
 }
 
-.items-1 {
-  /* flex-grow: 1; */
-}
-
-.items-2 {
-  /* flex-grow: 2; */
-}
-
-.items-3 {
-  /* flex-grow: 3; */
-}
-
-.items-4 {
-  flex-grow: 4;
-}
 .input-boxes-div {
   padding: 24px;
   padding-left: 22px;
