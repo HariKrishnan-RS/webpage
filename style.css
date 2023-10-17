@@ -38,7 +38,27 @@
     height: auto;
     padding-bottom: 20px;
   }
+  #second-input-boxes {
+    flex-direction: column;
+    gap: 5px;
+  }
+  #cart-div {
+    flex-direction: column;
+  }
+  #article-nav-div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #article-nav-div p {
+    margin: 0;
+  }
+  #gallery {
+    grid-template-columns: 1fr;
+  }
 }
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
