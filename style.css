@@ -438,3 +438,76 @@ article p {
   color: black;
   background-color: #ebebeb;
 }
+
+.contact-info {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.contact-info h1 {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.contact-info p {
+  font-size: 20px;
+}
+.contact-info div {
+  line-height: 10px;
+  margin-top: 35px;
+}
+.contact-info i {
+  color: #ff3d2f;
+  padding-right: 25px;
+}
+.message-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  gap: 20px;
+}
+.message-div input {
+  font-size: 20px;
+  padding: 25px 10px;
+  border: 1px solid rgb(194, 194, 194);
+}
+.message-div :last-child {
+  width: 220px;
+  padding: 18px;
+  background-color: #000;
+  color: white;
+  font-weight: 100;
+}
+.message-div :last-child:hover {
+  color: black;
+  background-color: rgb(218, 216, 216);
+  border: 0;
+}
+
+.find-us-div {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.find-us-div > div {
+  font-size: 23px;
+  padding: 20px;
+}
+
+.find-us-div div i {
+  padding-right: 0;
+  font-size: 25px;
+}
+.find-us-div div:last-child {
+  font-size: 19px;
+}
+.w3-link {
+  text-decoration: underline;
+  color: white;
+}
+.w3-link:hover {
+  color: rgb(0, 152, 0);
+}
