@@ -4,7 +4,7 @@
     width: 100%;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 810px) {
   #first-header {
     display: flex;
     flex-direction: column;
@@ -23,6 +23,20 @@
   }
   #book-now {
     width: 100%;
+  }
+}
+/* phone responsive */
+@media (max-width: 810px) {
+  #input-div {
+    width: 92.1vw;
+  }
+  #input-boxes-div {
+    grid-template-columns: 1fr;
+  }
+  #input-div {
+    align-self: center;
+    height: auto;
+    padding-bottom: 20px;
   }
 }
 body {
@@ -178,7 +192,7 @@ Media query for larger screens (greater than 1024px)
   border: 1px solid black;
 }
 
-.input-boxes-div {
+/* .input-boxes-div {
   padding: 24px;
   padding-left: 22px;
   display: flex;
@@ -212,6 +226,37 @@ Media query for larger screens (greater than 1024px)
   padding-bottom: 13px;
   border: 1px solid;
   border-color: #bbb9b9b1;
+} */
+
+.input-boxes-div {
+  padding: 24px;
+  padding-left: 22px;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr;
+  gap: 35px;
+}
+
+.boxes-div label {
+  width: 50%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.boxes-div label > i {
+  padding: 0;
+}
+.boxes-div input {
+  width: 50%;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 1px solid;
+  border-color: #bbb9b9b1;
+}
+
+.boxes-div input {
+  width: 100%;
 }
 
 .section-2 {
